@@ -1,17 +1,16 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import FlightForm from "./FlightForm";
-import {Route, Router, Routes} from "react-router";
 import FlightResults from "./Result";
 
-
-const App = ()=>{
+const App = () => {
     return (
-            <Router>
-                <Routes>
-                    <Route path="/" component={FlightForm}/>
-                    <Route path="/results" element={<FlightResults/>} />
-                </Routes>
-            </Router>
-    )
-}
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<FlightForm />} />
+                <Route path="/results" element={<FlightResults />} />
+            </Routes>
+        </BrowserRouter>
+    );
+};
 
 export default App;
