@@ -23,16 +23,14 @@ Flight Booking App is a lightweight single-page application that allows users to
 
 ## ✨ Features
 
-`diff
 + 🔍 Search available flights by origin & destination
 + 📅 Filter by date (optional)
-+ ✈️ View flight details: airline, departure, arrival, price
++ ✈️ View flight details: airline, departure, arrival,
 + 🧾 Simulate ticket booking
 + 📱 Fully responsive on all screen sizes
 + 📡 API-driven flight data
 + 🧩 Modular component-based architecture
 + ⚠️ Handles errors and empty results
-+ 🔄 Easy to extend with payment/auth later
 
 ---
 
